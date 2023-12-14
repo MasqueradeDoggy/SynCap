@@ -12,7 +12,6 @@ body {
 body {
     height: 100vh; 
     background-color: #1E1E1E;
-
 }
 
 header {
@@ -96,16 +95,45 @@ nav .categories:hover {
 }
 
 .icons img {
-    width: 48px;
+    width: 96px;
     
-    padding: 15px 0;
+    transition: .15s;
+    /* padding: 15px 0; */
+}
+.icons img:hover {
+    transform: scale(1.15);
 }
 
 main {
     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     justify-content: center;
+    align-items: center;
+
+}
+
+main h1{
+    color: #FFF;
+    cursor: default;
+    
 }
 
 .logoicons {
     display: grid;
+    grid-template-columns: repeat(5, 56px);
+    gap: 20px; 
+
+    /* border: 2px solid #FFF; */
+    border-radius: 20px;
+
+    padding: 90px;
+}
+
+.icons {
+    /* border: 2px solid #FFF; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
