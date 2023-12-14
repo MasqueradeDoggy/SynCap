@@ -121,7 +121,7 @@ main h1{
 
 .logoicons {
     display: grid;
-    grid-template-columns: repeat(5, 56px);
+    grid-template-columns: repeat(6, 56px);
     gap: 20px; 
 
     /* border: 2px solid #FFF; */
